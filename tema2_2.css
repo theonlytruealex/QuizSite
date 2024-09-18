@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: rgb(40, 43, 51);
+    padding: 10px;
+}
+
+.difficulty-body {
+    background-color: rgb(64, 73, 90);
+    border: 1px solid black;
+    padding: 0 10px;
+    color: aliceblue;
+    display: grid;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+#score {
+    position: fixed;
+    color: aliceblue;
+    display: none;
+}
+
+.good {
+    background-color: green;
+    color: aliceblue;
+}
+
+.bad {
+    background-color: red;
+    color: aliceblue;
+}
+
+.normal {
+    background-color: aliceblue;
+    color: black;
+}
+
+.card-body {
+    border: 1px solid black;
+    color: aliceblue;
+    padding: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    background-color: rgb(64, 73, 90);
+}
+
+.question {
+    margin: 10px;
+}
+
+.category {
+    color: rgb(255, 243, 82);
+    justify-self: end;
+}
+
+.answer {
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.308);
+    margin: 10px;
+    padding: 5px;
+}
